@@ -42,34 +42,6 @@
   </section>
 
   <section>
-      <h2>Estructura del Proyecto</h2>
-      <p>La estructura básica del proyecto es la siguiente:</p>
-      <pre>
-primerApp-SpringFrameworkJava/
-│
-├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   └── com/
-│   │   │       └── ejemplo/
-│   │   │           └── primerApp/
-│   │   │               ├── controller/
-│   │   │               │   └── Controlador.java       # Controlador para gestionar las solicitudes HTTP
-│   │   │               ├── service/
-│   │   │               │   └── Servicio.java          # Lógica de negocio
-│   │   │               ├── model/
-│   │   │               │   └── Elemento.java          # Modelo de datos
-│   │   │               └── PrimerAppApplication.java   # Clase principal que inicializa la aplicación
-│   │   └── resources/
-│   │       ├── application.properties  # Configuración de la aplicación
-│   │       └── static/                 # Archivos estáticos (CSS, JS, imágenes)
-│   │       └── templates/              # Plantillas Thymeleaf (si aplica)
-│
-└── README.html                           # Este archivo README en formato HTML
-      </pre>
-  </section>
-
-  <section>
       <h2>Instrucciones para Ejecutar el Proyecto</h2>
       <p>Para ejecutar este proyecto en tu máquina local, sigue estos pasos:</p>
       <ol>
